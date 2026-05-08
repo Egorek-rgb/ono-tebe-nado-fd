@@ -9,7 +9,8 @@ body {
   margin: 0 auto;
   font-family: Raleway, sans-serif;
 }
-h1,h2{
+h1,
+h2 {
   font-weight: normal;
 }
 h1,
@@ -26,7 +27,7 @@ blockquote {
   margin: 0;
   padding: 0;
 }
-li{
+li {
   list-style: none;
 }
 a {
@@ -41,6 +42,6 @@ button {
   font: inherit;
 }
 
-address{
+address {
   font-style: normal;
 }
