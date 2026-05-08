@@ -167,7 +167,6 @@ body {
   text-transform: uppercase;
 }
 .card {
-  display: block;
   position: relative;
   display: flex;
   flex-direction: column;
