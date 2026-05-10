@@ -23,7 +23,8 @@
 .header__link {
   margin-right: 12.52px;
   border-bottom: 1px solid black;
-  line-height: 19px;
+  line-height: 18px;
+  text-decoration: none;
 }
 
 .header__list-item::before {
@@ -59,9 +60,6 @@
 .address-tel-link {
   text-underline-offset: 3px;
 }
-.header__list li a {
-  text-decoration: none;
-}
 .overlay {
   height: 100%;
   width: 100%;
@@ -81,15 +79,13 @@
   background-position: center;
   background-size: cover;
 }
-.text-white {
-  color: white;
-}
 
 .cover__head {
+  color: white;
   position: relative;
   z-index: 1;
-  top: 159px;
-  left: 50px;
+  padding-top: 159px;
+  margin-left: 50px;
   display: flex;
   flex-direction: column;
   gap: 18px;
@@ -125,8 +121,8 @@
 .description {
   position: relative;
   z-index: 2;
-  top: 268px;
-  left: 50px;
+  padding-top: 108px;
+  margin-left: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -194,9 +190,6 @@
   min-height: 596px;
   padding: 48px 40px;
   color: white;
-}
-
-.card_type_background_settings {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
